@@ -1,0 +1,85 @@
+doctype html
+html(lang="en")
+	head
+		meta(name="robots", content="noindex")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		title Hadley Lambeth Front End Developer
+		link(type='text/css', rel='stylesheet', href='css/normalize.css')
+		link(type='text/css', rel='stylesheet', href='css/main.css')
+		//- link(href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css', rel='stylesheet', type='text/css')
+		//- link(href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css", rel="stylesheet")
+		link(rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css")
+		link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,800', rel='stylesheet', type='text/css')
+
+	body
+		.left-container.border-box
+			h2.name HADLEY
+			p.subtitle Front End Developer
+			ul.social-links
+				li
+					a(href='https://github.com/hlambeth')
+						i.devicon-github-plain
+				li
+					a(href='http://codepen.io/hlambeth/')
+						i.devicons.devicons-codepen
+				li
+					a(href='https://docs.google.com/document/d/1hOJ9dnjH7yXw3MH205FVZA_dWo-e7EETxf8Vd5MpVw0/edit?usp=sharing')
+						i.devicons.devicons-code_badge
+				//- li: a(href='https://www.linkedin.com/in/hadleylambeth') LinkedIn
+			a.button.clear(href="mailto:hadleylambeth@gmail.com") Contact Me
+		.right-container.border-box
+			.wrapper
+				h2.headline.skills Skills
+				ul.icon-list
+					li
+						i.devicon-javascript-plain
+							p JavaScript
+					li
+						i.devicon-react-original
+							p React
+					li
+						i.devicon-jquery-plain
+							p Jquery
+					li
+						i.devicon-sass-original
+							p Sass
+					li
+						i.devicon-foundation-plain
+							p Foundation
+					li
+						i.devicon-rails-plain
+							p Rails
+					li
+						i.devicon-ruby-plain
+							p Ruby
+					li
+						i.devicon-postgresql-plain
+							p Postgres
+					li
+						i.devicon-git-plain
+							p Git
+					li
+						i.devicon-nodejs-plain
+							p Node
+			.wrapper
+				h2.headline Work
+				ul.list-standard.pad-right
+					li
+						a(href='https://www.everfest.com') Everfest
+							span.site-desc - Senior Frontend Dev For The World's Largest Festival Website
+					li
+						a(href="http://leasestation.com/" rel="nofollow") LeaseStation
+							span.site-desc - UI/UX Developer
+			.wrapper
+				h2.headline Recent Projects
+				ul.list-standard.pad-right
+					li
+						a(href='https://setlist.live') SetList
+							span.site-desc - Create Spotify Playlist From Top Tracks
+					li
+						a(href='http://shareaustin.herokuapp.com/#/') ShareAustin
+							span.site-desc - Sharing Economy App For Outdoors Enthusiast
+					li
+						a(href='https://github.com/roomeasy/roomease') RoomEase
+							span.site-desc - App to Make Living With Roomates Fair and Easy
+						
