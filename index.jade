@@ -6,26 +6,26 @@ html(lang="en")
 		title Hadley Lambeth Front End Developer
 		link(type='text/css', rel='stylesheet', href='css/normalize.css')
 		link(type='text/css', rel='stylesheet', href='css/main.css')
-		//- link(href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css', rel='stylesheet', type='text/css')
-		//- link(href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css", rel="stylesheet")
 		link(rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css")
 		link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,800', rel='stylesheet', type='text/css')
 
 	body
 		.left-container.border-box
 			h2.name HADLEY
-			p.subtitle Front End Developer
+			p.subtitle Web Developer
 			ul.social-links
 				li
-					a(href='https://github.com/hlambeth')
+					a(href='https://github.com/hlambeth' target='_blank' rel='noopener')
 						i.devicon-github-plain
 				li
-					a(href='http://codepen.io/hlambeth/')
-						i.devicons.devicons-codepen
+					a(href='http://codepen.io/hlambeth/' target='_blank' rel='noopener')
+						i.fa.fa-codepen
 				li
-					a(href='https://docs.google.com/document/d/1hOJ9dnjH7yXw3MH205FVZA_dWo-e7EETxf8Vd5MpVw0/edit?usp=sharing')
-						i.devicons.devicons-code_badge
-				//- li: a(href='https://www.linkedin.com/in/hadleylambeth') LinkedIn
+					a(href='https://docs.google.com/document/d/1hOJ9dnjH7yXw3MH205FVZA_dWo-e7EETxf8Vd5MpVw0/edit?usp=sharing' target='_blank' rel='noopener')
+						i.fa.fa-file-text-o
+				li
+					a(href='https://www.linkedin.com/in/hadleylambeth' target='_blank' rel='noopener')
+						i.fa.fa-linkedin-square
 			a.button.clear(href="mailto:hadleylambeth@gmail.com") Contact Me
 		.right-container.border-box
 			.wrapper
@@ -65,10 +65,10 @@ html(lang="en")
 				h2.headline Work
 				ul.list-standard.pad-right
 					li
-						a(href='https://www.everfest.com') Everfest
-							span.site-desc - Senior Frontend Dev For The World's Largest Festival Website
+						a(href='https://www.everfest.com' target="_blank" rel="noopener") Everfest
+							span.site-desc - Founding Team Developer (Ruby/React)
 					li
-						a(href="http://leasestation.com/" rel="nofollow") LeaseStation
+						a(href="http://leasestation.com/" target="_blank" rel="nofollow") LeaseStation
 							span.site-desc - UI/UX Developer
 			.wrapper
 				h2.headline Recent Projects
@@ -82,4 +82,6 @@ html(lang="en")
 					li
 						a(href='https://github.com/roomeasy/roomease') RoomEase
 							span.site-desc - App to Make Living With Roomates Fair and Easy
+	script(src="https://use.fontawesome.com/3357b36c48.js")
+							
 						
