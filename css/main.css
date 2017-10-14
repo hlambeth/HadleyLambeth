@@ -2,7 +2,7 @@ html {
   font-family: "Open Sans", sans-serif; }
 
 .left-container {
-  background: url("../img/my-photo.jpg") top -60px center no-repeat;
+  background: url("../img/my-photo3.jpg") top center no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -webkit-flex;
@@ -95,7 +95,7 @@ html {
         cursor: pointer; }
 
 .site-desc {
-  padding-left: 10px;
+  padding-left: 5px;
   font-size: .75em;
   color: #333; }
 
