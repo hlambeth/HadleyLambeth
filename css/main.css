@@ -62,7 +62,8 @@ html {
 .name {
   font-size: 4em;
   font-weight: 800;
-  text-shadow: 1px 1px 10px rgba(42, 62, 81, 0.67); }
+  text-shadow: 1px 1px 10px rgba(42, 62, 81, 0.67);
+  margin-bottom: 0.5rem; }
 
 .subtitle {
   font-size: 1.55em;
