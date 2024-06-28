@@ -2,7 +2,7 @@ html {
   font-family: "Open Sans", sans-serif; }
 
 .left-container {
-  background: url("../img/my-photo3.jpg") top center no-repeat;
+  background: url("../img/my-photo.jpeg") top center no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -webkit-flex;
